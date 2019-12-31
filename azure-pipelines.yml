@@ -15,7 +15,7 @@ variables:
   webAppName: 'Train-Schedule'
   
   # Environment name
-  environmentName: 'dev'
+  environmentName: $(environment_to_run)
 
   # Agent VM image name
   vmImageName: 'ubuntu-latest'

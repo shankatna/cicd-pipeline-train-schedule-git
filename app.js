@@ -12,6 +12,7 @@ var app = express();
 // view engine setup
 // I'm testing the status of git command via this application
 // Chaged this value from git hub
+// testing the confligt again
 
 app.set('views', path.join(__dirname, 'views'));
 app.set('view engine', 'jade');
